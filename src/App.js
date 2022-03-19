@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Device from './Components/Device/Device';
 import Watch from './Components/Watch/Watch';
+import Tablet from './Tablet/Tablet';
 
 function App() {
   return (

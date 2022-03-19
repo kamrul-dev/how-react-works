@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Tablet from '../../Tablet/Tablet';
 import Display from '../Display/Display';
 
 // stateful component
@@ -17,6 +18,7 @@ const Watch = () => {
             <h3>My Current Steps: {steps}</h3>
             <button onClick={increaseSteps}>Start Walk</button>
             <Display name="Apple" steps={steps}></Display>
+            <Tablet></Tablet>
         </div>
     );
 };
